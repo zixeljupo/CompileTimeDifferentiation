@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.h
+string
+-
+
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/main.cpp
+iostream
+-
+type_traits
+-
+library.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.h
+
