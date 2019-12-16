@@ -124,6 +124,33 @@ CompileTimeDifferentiation\fast:
 	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\build
 .PHONY : CompileTimeDifferentiation\fast
 
+binary_operations.obj: binary_operations.cpp.obj
+
+.PHONY : binary_operations.obj
+
+# target to build an object file
+binary_operations.cpp.obj:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\binary_operations.cpp.obj
+.PHONY : binary_operations.cpp.obj
+
+binary_operations.i: binary_operations.cpp.i
+
+.PHONY : binary_operations.i
+
+# target to preprocess a source file
+binary_operations.cpp.i:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\binary_operations.cpp.i
+.PHONY : binary_operations.cpp.i
+
+binary_operations.s: binary_operations.cpp.s
+
+.PHONY : binary_operations.s
+
+# target to generate assembly for a file
+binary_operations.cpp.s:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\binary_operations.cpp.s
+.PHONY : binary_operations.cpp.s
+
 common.obj: common.cpp.obj
 
 .PHONY : common.obj
@@ -151,32 +178,59 @@ common.cpp.s:
 	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\common.cpp.s
 .PHONY : common.cpp.s
 
-library.obj: library.cpp.obj
+cp_float.obj: cp_float.cpp.obj
 
-.PHONY : library.obj
+.PHONY : cp_float.obj
 
 # target to build an object file
-library.cpp.obj:
-	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\library.cpp.obj
-.PHONY : library.cpp.obj
+cp_float.cpp.obj:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\cp_float.cpp.obj
+.PHONY : cp_float.cpp.obj
 
-library.i: library.cpp.i
+cp_float.i: cp_float.cpp.i
 
-.PHONY : library.i
+.PHONY : cp_float.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\library.cpp.i
-.PHONY : library.cpp.i
+cp_float.cpp.i:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\cp_float.cpp.i
+.PHONY : cp_float.cpp.i
 
-library.s: library.cpp.s
+cp_float.s: cp_float.cpp.s
 
-.PHONY : library.s
+.PHONY : cp_float.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\library.cpp.s
-.PHONY : library.cpp.s
+cp_float.cpp.s:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\cp_float.cpp.s
+.PHONY : cp_float.cpp.s
+
+differentiation.obj: differentiation.cpp.obj
+
+.PHONY : differentiation.obj
+
+# target to build an object file
+differentiation.cpp.obj:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\differentiation.cpp.obj
+.PHONY : differentiation.cpp.obj
+
+differentiation.i: differentiation.cpp.i
+
+.PHONY : differentiation.i
+
+# target to preprocess a source file
+differentiation.cpp.i:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\differentiation.cpp.i
+.PHONY : differentiation.cpp.i
+
+differentiation.s: differentiation.cpp.s
+
+.PHONY : differentiation.s
+
+# target to generate assembly for a file
+differentiation.cpp.s:
+	$(MAKE) -f CMakeFiles\CompileTimeDifferentiation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CompileTimeDifferentiation.dir\differentiation.cpp.s
+.PHONY : differentiation.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -214,12 +268,18 @@ help:
 	@echo ... edit_cache
 	@echo ... CompileTimeDifferentiation
 	@echo ... rebuild_cache
+	@echo ... binary_operations.obj
+	@echo ... binary_operations.i
+	@echo ... binary_operations.s
 	@echo ... common.obj
 	@echo ... common.i
 	@echo ... common.s
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
+	@echo ... cp_float.obj
+	@echo ... cp_float.i
+	@echo ... cp_float.s
+	@echo ... differentiation.obj
+	@echo ... differentiation.i
+	@echo ... differentiation.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

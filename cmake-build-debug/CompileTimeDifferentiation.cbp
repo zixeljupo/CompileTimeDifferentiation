@@ -80,16 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/binary_operations.cpp">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/binary_operations.h">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
 		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.cpp">
 			<Option target="CompileTimeDifferentiation"/>
 		</Unit>
 		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.h">
 			<Option target="CompileTimeDifferentiation"/>
 		</Unit>
-		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.cpp">
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cp_float.cpp">
 			<Option target="CompileTimeDifferentiation"/>
 		</Unit>
-		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.h">
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cp_float.h">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.cpp">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.h">
 			<Option target="CompileTimeDifferentiation"/>
 		</Unit>
 		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/main.cpp">

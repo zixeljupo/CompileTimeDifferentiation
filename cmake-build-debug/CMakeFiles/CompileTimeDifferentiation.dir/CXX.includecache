@@ -6,15 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.h
-string
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/binary_operations.h
+differentiation.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.h
+
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.h
+
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cp_float.h
+tuple
 -
+
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.h
+common.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.h
 
 C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/main.cpp
 iostream
 -
 type_traits
 -
-library.h
-C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/library.h
+ratio
+-
+common.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.h
+differentiation.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.h
+binary_operations.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/binary_operations.h
+cp_float.h
+C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cp_float.h
 
