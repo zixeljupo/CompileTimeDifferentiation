@@ -49,5 +49,7 @@ int main() {
     static_assert(expr8(2.5) == (double(3141)/1000*2.5 + 1.0) / 4.0);
     cout << typeid(expr8).name() << endl;
 
+    constexpr auto expr9 = Const<int, 4>() * x * Const<int, 4>();
+
     return 0;
 }
