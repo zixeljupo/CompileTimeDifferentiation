@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/main.cpp">
 			<Option target="CompileTimeDifferentiation"/>
 		</Unit>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/utils.cpp">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
+		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/utils.h">
+			<Option target="CompileTimeDifferentiation"/>
+		</Unit>
 		<Unit filename="C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

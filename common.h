@@ -1,25 +1,20 @@
 #ifndef COMPILETIMEDIFFERENTIATION_COMMON_H
 #define COMPILETIMEDIFFERENTIATION_COMMON_H
 
-template <class T, T t>
-class Const {
-public:
-    using ResultType = int;
+#include "utils.h"
 
-    template <class ValueType>
-    constexpr auto operator()(const ValueType & value) const {
-        return t;
-    }
-};
+//template <class T, T t>
+//class Const {
+//public:
+//    using ResultType = int;
+//    eval_macro { return t; }
+//};
 
+template <int id>
 class Var {
 public:
     using ResultType = int;
-
-    template <class ValueType>
-    constexpr ValueType operator()(const ValueType & value) const {
-        return value;
-    }
+    eval_macro { return getNth<id>(values...); }
 };
 
 #endif //COMPILETIMEDIFFERENTIATION_COMMON_H
