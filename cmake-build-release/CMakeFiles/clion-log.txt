@@ -1,0 +1,4 @@
+/opt/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/andrey/CompileTimeDifferentiation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrey/CompileTimeDifferentiation/cmake-build-release

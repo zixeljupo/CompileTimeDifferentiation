@@ -3,18 +3,18 @@
 
 #include "utils.h"
 
-//template <class T, T t>
-//class Const {
-//public:
-//    using ResultType = int;
-//    eval_macro { return t; }
-//};
+template <class T, T t>
+class Const {
+public:
+    using ResultType = int;
+    eval_macro { return t; }
+};
 
 template <int id>
 class Var {
 public:
     using ResultType = int;
-    eval_macro { return getNth<id>(values...); }
+    eval_macro { return fused::nth<id>(values...); }
 };
 
 #endif //COMPILETIMEDIFFERENTIATION_COMMON_H

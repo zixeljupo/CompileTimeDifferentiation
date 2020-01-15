@@ -8,10 +8,71 @@
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c9dcb1c-3823-430d-a584-5cbe8e2d445b" name="Default Changelist" comment="" />
+    <list default="true" id="1c9dcb1c-3823-430d-a584-5cbe8e2d445b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/andrey.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CompileTimeDifferentiation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompileTimeDifferentiation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_operations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/binary_operations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_operations.h" beforeDir="false" afterPath="$PROJECT_DIR$/binary_operations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.lib" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CompileTimeDifferentiation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp_float.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cp_float.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp_float.h" beforeDir="false" afterPath="$PROJECT_DIR$/cp_float.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/differentiation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/differentiation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/differentiation.h" beforeDir="false" afterPath="$PROJECT_DIR$/differentiation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +101,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,7 +122,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompileTimeDifferentiation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompileTimeDifferentiation" TARGET_NAME="CompileTimeDifferentiation" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/main.cpp">
+    <configuration name="CompileTimeDifferentiation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompileTimeDifferentiation" TARGET_NAME="CompileTimeDifferentiation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CompileTimeDifferentiation" RUN_TARGET_NAME="CompileTimeDifferentiation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -85,6 +148,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -122,10 +188,11 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="496" y="134" key="#CompileTimeDifferentiation/0.0.1536.826@0.0.1536.826" timestamp="1576398796315" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576399577884">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state x="1645" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579085793311">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1576399577884" />
+    <state x="1645" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579085793311" />
     <state x="468" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579023538653">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -134,26 +201,51 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.826@0.0.1536.826" timestamp="1576521336255" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1576398790494">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state x="2052" y="218" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579085399433">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1576398790494" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1579023459482">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state x="2052" y="218" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579085399433" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1579087842086">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1579023459482" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1579023459482">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087842086" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1579087842085">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1579023459482" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1579023459482">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087842085" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1579087842085">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1579023459482" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1579023459482">
-      <screen x="0" y="0" width="1536" height="826" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087842085" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1579087842085">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1579023459482" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087842085" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1579087711027">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087711027" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1579087711027">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087711027" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1579087711026">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087711026" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1579087711027">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579087711027" />
+    <state x="1815" y="174" key="SettingsEditor" timestamp="1579085765214">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1815" y="174" key="SettingsEditor/67.27.1299.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579085765214" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576465202447">
       <screen x="0" y="0" width="1536" height="826" />
     </state>

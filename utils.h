@@ -9,105 +9,42 @@
 
 #define eval_macro \
 template <typename... Args> \
-constexpr double operator()(const Args&... values) const
+constexpr double operator()(const Args... values) const
 
-//template<int n, typename T, typename... Args>
-//void extract_impl(T value, Args... args) {
-//    extract_impl<n - 1>(s, args...);
-//}
-//
-//template<typename T, typename... Args>
-//void extract_impl(T value, Args... args) {
-//    return value;
-//}
-//
-//template<int n, typename... Args>
-//void extract(Args... args)
-//{
-//    extract_impl<n>(args);
-//}
+namespace meta {
+    struct ignore final {
+        template <typename... Ts>
+        constexpr ignore(Ts&&...) noexcept {}
+    };
+}
 
-#include <utility>
-#include <tuple>
-#include <cassert>
+namespace meta {
+    template <typename>
+    using eat = ignore;
 
-//struct type_erasure {};
-//
-//template<class T>
-//struct wrapper : type_erasure {
-//    wrapper(T w) : w_(w) { }
-//    T w_;
-//    constexpr decltype(auto) get() { return w_; }
-//};
-//
-//template<class T>
-//constexpr wrapper<T> wrapper_for(T x) {
-//    return { x };
-//}
-//
-//template <typename ignore>
-//struct lookup;
-//
-//template <std::size_t... ignore>
-//struct lookup<std::index_sequence<ignore...>> {
-//    template <typename nth>
-//    static decltype(auto)
-//    constexpr at_position(decltype(ignore, type_erasure())..., wrapper<nth> w, ...) {
-//        return w.get();
-//    }
-//};
-//
-//template<std::size_t index, typename... Args>
-//constexpr auto getNth(Args... args) {
-//    return lookup<std::make_index_sequence<index>>::at_position(
-//            wrapper_for(args)...
-//    );
-//}
+    template <std::size_t>
+    using eat_n = ignore;
+}
 
-//struct type_erasure { };
-//
-//template<class T>
-//struct wrapper : type_erasure {
-//    constexpr wrapper(T&& w) : w_(std::forward<T>(w)) { }
-//    T&& w_;
-//    constexpr decltype(auto) get() { return std::forward<T>(w_); }
-//};
-//
-//template<class T>
-//constexpr wrapper<T> wrapper_for(T&& x) {
-//    return { std::forward<T>(x) };
-//}
-//
-//template <typename ignore>
-//struct lookup;
-//
-//template <std::size_t... ignore>
-//struct lookup<std::index_sequence<ignore...>> {
-//    template <typename nth>
-//    constexpr static decltype(auto)
-//    at_position(decltype(ignore, type_erasure())..., wrapper<nth> w, ...) {
-//        return w.get();
-//    }
-//
-//    template<typename... Ts>
-//    constexpr static auto
-//    all_after(decltype(ignore, type_erasure())..., Ts&&... args) {
-//        return std::forward_as_tuple(args.get()...);
-//    }
-//};
-//
-//template<std::size_t index, typename... Args>
-//constexpr auto getNth(Args&&... args) {
-//    return lookup<std::make_index_sequence<index>>::at_position(
-//            wrapper_for(std::forward<Args>(args))...
-//    );
-//}
-//
-//template<std::size_t index, typename... Args>
-//constexpr auto getAllAfter(Args&&... args) {
-//    return lookup<std::make_index_sequence<index + 1>>::all_after(
-//            wrapper_for(std::forward<Args>(args))...
-//    );
-//}
+namespace detail {
+    template <std::size_t N, typename = std::make_index_sequence<N>>
+    struct at;
+
+    template <std::size_t N, std::size_t... skip>
+    struct at<N, std::index_sequence<skip...>> {
+        template <typename Tp, typename... Us>
+        constexpr decltype(auto) operator()(meta::eat_n<skip>..., Tp&& x,
+                                            Us&&...) const noexcept {
+            return std::forward<Tp>(x);
+        }
+    };
+}
+
+namespace fused {
+    template <std::size_t N, typename... Ts>
+    constexpr decltype(auto) nth(Ts&&... args) {
+        return detail::at<N>{}(std::forward<Ts>(args)...);
+    }
+}
 
 #endif //COMPILETIMEDIFFERENTIATION_UTILS_H

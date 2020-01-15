@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/binary_operations.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/binary_operations.cpp.obj"
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/common.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/common.cpp.obj"
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cp_float.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/cp_float.cpp.obj"
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/differentiation.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/differentiation.cpp.obj"
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/main.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/main.cpp.obj"
-  "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/utils.cpp" "C:/Users/Timofey/CLionProjects/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/utils.cpp.obj"
+  "/home/andrey/CompileTimeDifferentiation/binary_operations.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/binary_operations.cpp.o"
+  "/home/andrey/CompileTimeDifferentiation/common.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/common.cpp.o"
+  "/home/andrey/CompileTimeDifferentiation/cp_float.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/cp_float.cpp.o"
+  "/home/andrey/CompileTimeDifferentiation/differentiation.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/differentiation.cpp.o"
+  "/home/andrey/CompileTimeDifferentiation/main.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/main.cpp.o"
+  "/home/andrey/CompileTimeDifferentiation/utils.cpp" "/home/andrey/CompileTimeDifferentiation/cmake-build-debug/CMakeFiles/CompileTimeDifferentiation.dir/utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
